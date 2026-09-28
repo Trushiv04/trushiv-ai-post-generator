@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets - never commit API keys
+.env
+*.key
+
+# Dependencies / build
+node_modules/
+vendor/
+
+# Packaged releases (upload these to GitHub Releases instead)
+*.zip
